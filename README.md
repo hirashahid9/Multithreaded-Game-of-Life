@@ -1,8 +1,8 @@
 
 OVERVIEW:
 
-It is a multithreaded version of Conway's "Game of Life" https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt
-Barrier functionality is used for this purpose as defined here https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt
+It is a multithreaded version of Conway's "Game of Life" https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt.
+Barrier functionality is used for this purpose as defined here http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
 
 
 HOW TO COMPILE AND EXECUTE
@@ -18,7 +18,7 @@ SNAPSHOT OF RUNNING PROGRAM:
 ![image](https://user-images.githubusercontent.com/55246052/120070411-d3c46d80-c0a3-11eb-85a8-56896b7aad1b.png)
 
 
-INSTRUCTIONS:
+CHANGES MADE:
 1. I have passed barrier objects pointer in barrier_init and barrier_point as without this, the function would not know which object to access.
 2. In barrier_init,the function return -1 whenever sem_init return non zero value(error). 
 3. In barrier_point, the function return -1 whenever sem_wait(&sem) or sem_post(&sem) return non zero value(error).
