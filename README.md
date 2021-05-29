@@ -13,6 +13,7 @@ HOW TO COMPILE AND EXECUTE
 A makefile has been created by me so that we don't need to compile all files every time we execute the code.
 
 SNAPSHOT OF RUNNING PROGRAM:
+![image](https://user-images.githubusercontent.com/55246052/120070411-d3c46d80-c0a3-11eb-85a8-56896b7aad1b.png)
 
 
 INSTRUCTIONS:
