@@ -1,3 +1,10 @@
+
+OVERVIEW:
+
+It is a multithreaded version of Conway's "Game of Life" https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt
+Barrier functionality is used for this purpose as defined here https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt
+
+
 HOW TO COMPILE AND EXECUTE
 
 1. Write "make" on command prompt and press enter.
@@ -5,8 +12,10 @@ HOW TO COMPILE AND EXECUTE
 
 A makefile has been created by me so that we don't need to compile all files every time we execute the code.
 
-INSTRUCTIONS:
+SNAPSHOT OF RUNNING PROGRAM:
 
+
+INSTRUCTIONS:
 1. I have passed barrier objects pointer in barrier_init and barrier_point as without this, the function would not know which object to access.
 2. In barrier_init,the function return -1 whenever sem_init return non zero value(error). 
 3. In barrier_point, the function return -1 whenever sem_wait(&sem) or sem_post(&sem) return non zero value(error).
