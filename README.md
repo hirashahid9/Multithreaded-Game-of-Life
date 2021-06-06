@@ -1,9 +1,13 @@
 
 # Overview
 
-It is a multithreaded version of Conway's "Game of Life" as defined in this link: https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt.
+It is a multithreaded version of Conway's "Game of Life". 
 
-Barrier functionality is used for this purpose as defined here http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
+To get an overview of thie game refer to this link: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+The actual cod of the  game as defined in this link: https://www.cs.utexas.edu/users/djimenez/utsa/cs1713-3/c/life.txt.
+
+Barrier functionality is used for the purpose of multithreading as defined here http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
 
 
 
@@ -15,6 +19,10 @@ Barrier functionality is used for this purpose as defined here http://greenteapr
 
 A makefile has been created by me so that we don't need to compile all files every time we execute the code.
 
+
+# Requirements
+
+Linux Operating System
 
 
 # Snapshot of Running Program
